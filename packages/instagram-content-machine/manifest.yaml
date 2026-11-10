@@ -1,0 +1,27 @@
+id: instagram-content-machine
+name: Instagram Content Machine
+description: Seven-prompt Instagram plan, calendar, Reel script and follower-to-client funnel workflow adapted by E82 Studios. Drafts only.
+category: marketing
+status: active
+runtimes:
+  codex:
+    supported: true
+    status: active
+    path: codex/
+  claude:
+    supported: true
+    status: active
+    path: claude/
+  gemini:
+    supported: false
+    status: stub
+  copilot:
+    supported: false
+    status: stub
+artifacts:
+  - skill
+  - prompt
+evidence_required:
+  - drafts_folder_path
+  - each_number_has_a_source
+  - nothing_posted_or_sent

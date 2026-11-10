@@ -257,3 +257,19 @@ packages:
       - skill
       - guide
       - example
+  - id: instagram-content-machine
+    name: Instagram Content Machine
+    description: Seven-prompt Instagram plan, calendar, Reel script and follower-to-client funnel workflow adapted by E82 Studios.
+    category: marketing
+    status: active
+    path: packages/instagram-content-machine
+    runtimes:
+      codex:
+        status: active
+        path: packages/instagram-content-machine/codex
+      claude:
+        status: active
+        path: packages/instagram-content-machine/claude
+    artifacts:
+      - skill
+      - prompt
